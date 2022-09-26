@@ -19,7 +19,6 @@ html {
     position: relative;
 }
 
-
 header {
     width: 100vw;
     top: 0;
@@ -43,7 +42,6 @@ header {
     font-family:Calibri;
     transition: 0.5s;
 }
-
 #home:hover {
     transition-property: all;
     transition: 0.5s;
@@ -102,7 +100,6 @@ header {
     color: #181818;
     font-size: 27px;
 }
-
 #projects{
     position: absolute;
     left: 970px;
@@ -120,7 +117,6 @@ header {
     color: #181818;
     font-size: 27px;
 }
-
 #assignment{
     position: absolute;
     left: 1100px;
@@ -172,6 +168,7 @@ header {
     color: #181818;
     font-size: 27px;
 }
+
 body {
     overflow-x: hidden; /* hidden overflow across the x */
 }
@@ -204,7 +201,7 @@ body>section:nth-child(1)>section>h1:nth-child(2){
     padding: 0;
     line-height: 160px;
     -webkit-text-stroke: 1px #fff;
-    background: url("assets/images/back.png");
+    background: url("../images/back.png");
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back1 20s linear infinite;
@@ -280,7 +277,6 @@ body>section:nth-child(2){
     animation-iteration-count: infinite;
 
 }
-
 #list{
     position: relative;
     left: 580px;
@@ -292,7 +288,6 @@ body>section:nth-child(2){
     height: 0;
     font-family: "Baskerville Old Face";
 }
-
 #whatsapp{
     position: relative;
     width: 28px;
@@ -371,18 +366,6 @@ body>section:nth-child(2)>h1{
     width: 200px;
 }
 
-/*main>section:nth-child(2)>h1{*/
-/*    position: relative;*/
-/*    color: white;*/
-/*    left: 50px;*/
-/*    bottom: 400px;*/
-/*    font-size: 30px;*/
-/*    font-family: Candara;*/
-/*    width: 200px;*/
-/*    margin: 0;*/
-/*    height: 0;*/
-
-/*}*/
 
 @keyframes emoji{
     100% {
@@ -424,18 +407,6 @@ body>section:nth-child(2)>h1{
 body>section:nth-child(3){
     background-color: white;
 }
-
-/*body>section:nth-child(3)>h1{*/
-/*    position: absolute;*/
-/*    color: black;*/
-/*    left: 50px;*/
-/*    bottom: 560px;*/
-/*    font-size: 30px;*/
-/*    margin: 0;*/
-/*    width: 600px;*/
-/*    height: 0;*/
-
-/*}*/
 
 body>section:nth-child(3)>section:nth-child(1)>img{
     width: 100px;
@@ -567,7 +538,7 @@ body>section:nth-child(4)>section:nth-child(3)>div{
 
 body>section:nth-child(4)>section:nth-child(2)>div:nth-child(1){
     background-color: gray;
-    background: url("assets/images/java1.png");
+    background: url("../images/java1.png");
     background-size: cover;
     background-position: center;
     transition: 0.8s;
@@ -580,7 +551,7 @@ body>section:nth-child(4)>section:nth-child(2)>div:nth-child(1):hover{
 }
 
 body>section:nth-child(4)>section:nth-child(2)>div:nth-child(2){
-    background: url("assets/images/mysql.png");
+    background: url("../images/mysql.png");
     background-size: cover;
     background-position: center;
 }
@@ -589,7 +560,7 @@ body>section:nth-child(4)>section:nth-child(2)>div:nth-child(2):hover{
     transition: all 1s;
 }
 body>section:nth-child(4)>section:nth-child(2)>div:nth-child(3){
-    background: url("assets/images/javafx-tutorial.png");
+    background: url("../images/javafx-tutorial.png");
     background-size: cover;
     background-position: center;
 }
@@ -598,7 +569,7 @@ body>section:nth-child(4)>section:nth-child(2)>div:nth-child(3):hover{
     transition: all 1s;
 }
 body>section:nth-child(4)>section:nth-child(2)>div:nth-child(4){
-    background: url("assets/images/jasper.png");
+    background: url("../images/jasper.png");
     background-size: cover;
     background-position: center;
 }
@@ -607,7 +578,7 @@ body>section:nth-child(4)>section:nth-child(2)>div:nth-child(4):hover{
     transition: all 1s;
 }
 body>section:nth-child(4)>section:nth-child(3)>div:nth-child(1){
-    background: url("assets/images/images.png");
+    background: url("../images/images.png");
     background-size: cover;
     background-position: center;
 }
@@ -616,7 +587,7 @@ body>section:nth-child(4)>section:nth-child(3)>div:nth-child(1):hover{
     transition: all 1s;
 }
 body>section:nth-child(4)>section:nth-child(3)>div:nth-child(2){
-    background: url("assets/images/css1.jpg");
+    background: url("../images/css1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -625,7 +596,7 @@ body>section:nth-child(4)>section:nth-child(3)>div:nth-child(2):hover{
     transition: all 1s;
 }
 body>section:nth-child(4)>section:nth-child(3)>div:nth-child(3){
-    background: url("assets/images/js.png");
+    background: url("../images/js.png");
     background-size: cover;
     background-position: center;
 }
@@ -634,7 +605,7 @@ body>section:nth-child(4)>section:nth-child(3)>div:nth-child(3):hover{
     transition: all 1s;
 }
 body>section:nth-child(4)>section:nth-child(3)>div:nth-child(4){
-    background: url("assets/images/node.png");
+    background: url("../images/node.png");
     background-size: cover;
     background-position: center;
 }
@@ -701,7 +672,7 @@ body>section:nth-child(5)>section>div:nth-child(3):hover{
 }
 
 body>section:nth-child(5)>section>div:nth-child(1){
-    background: url("assets/images/Screenshot (286).png");
+    background: url("../images/Screenshot (286).png");
     background-size: cover;
     background-position: center;
 
@@ -720,7 +691,7 @@ body>section:nth-child(5)>section>div:nth-child(1)>a{
 }
 
 body>section:nth-child(5)>section>div:nth-child(2){
-    background: url("assets/images/Screenshot (289).png");
+    background: url("../images/Screenshot (289).png");
     background-size: cover;
     background-position: center;
 
@@ -739,7 +710,7 @@ body>section:nth-child(5)>section>div:nth-child(2)>a{
 }
 
 body>section:nth-child(5)>section>div:nth-child(3){
-    background: url("assets/images/Screenshot (291).png");
+    background: url("../images/Screenshot (291).png");
     background-size: cover;
     background-position: center;
 
@@ -1454,12 +1425,6 @@ body>section:nth-child(8)>section:nth-child(4) {
     width: 100px;
     height: 0;
 }
-
-
-
-
-
-
 
 
 
@@ -2717,27 +2682,31 @@ body>section:nth-child(8)>section:nth-child(4) {
 
 /*************************************************************************************************/
 
-@media all and (min-width: 768px)and (max-width: 1024px)  {
+@media all and (min-width: 768px)and (max-width: 1024px) {
     header {
         height: 50px;
         position: fixed;
         z-index: 2;
     }
+
     body > section:nth-child(1) > section > h1:nth-child(1) {
         left: 40px;
         font-size: 47px;
         top: 106px;
     }
+
     body > section:nth-child(1) > section > h1:nth-child(2) {
         font-size: 96px;
         left: 40px;
         top: 244px;
     }
+
     body > section:nth-child(1) > section > h1:nth-child(3) {
         left: 40px;
         font-size: 17px;
         top: 469px;
     }
+
     body > section:nth-child(1) > section > p {
         position: absolute;
         left: 40px;
@@ -2750,15 +2719,18 @@ body>section:nth-child(8)>section:nth-child(4) {
         background: rgb(73, 73, 74);
         background: linear-gradient(90deg, rgba(73, 73, 74, 0.7038165608040091) 0%, rgba(0, 0, 0, 1) 100%);
     }
+
     header {
         height: 50px;
         z-index: 2;
     }
+
     #me {
         width: 252px;
         left: 32px;
         top: 197px;
     }
+
     #girl {
         display: inherit;
         width: 340px;
@@ -2766,41 +2738,49 @@ body>section:nth-child(8)>section:nth-child(4) {
         left: 435px;
         height: 342px;
     }
+
     #list {
         left: 343px;
         bottom: 44px;
         font-size: 19px;
     }
+
     #whatsapp {
         width: 20px;
         left: 43px;
         top: 268px;
     }
+
     #facebook {
         width: 20px;
         top: 268px;
         left: 81px;
     }
+
     #linkedin {
         width: 20px;
         top: 268px;
         left: 126px;
     }
+
     #twitter {
         width: 20px;
         left: 223px;
         top: 268px;
     }
+
     #gmail {
         width: 20px;
         left: 262px;
         top: 268px;
     }
+
     #github {
         width: 20px;
         left: 113px;
         top: 268px;
     }
+
     body > section:nth-child(2) > h1 {
         bottom: 204px;
         left: 30px;
@@ -2815,34 +2795,40 @@ body>section:nth-child(8)>section:nth-child(4) {
         left: 351px;
         top: 1276px;
     }
+
     body > section:nth-child(3) > section:nth-child(2) > img {
         width: 385px;
         height: 433px;
         left: 210px;
         top: 1307px;
     }
+
     body > section:nth-child(3) > section:nth-child(3) > img {
         width: 111px;
         height: 78px;
         left: 7px;
         top: 1419px;
     }
+
     body > section:nth-child(3) > section:nth-child(3) > h1 {
         left: 23px;
         top: 193px;
         font-size: 15px;
     }
+
     body > section:nth-child(3) > section:nth-child(4) > h1 {
         left: 494px;
         top: 514px;
         font-size: 15px;
     }
+
     body > section:nth-child(3) > section:nth-child(4) > img {
         width: 88px;
         height: 72px;
         left: 628px;
         top: 1601px;
     }
+
     body > section:nth-child(3) > h1 {
         position: relative;
         top: 84px;
@@ -2866,10 +2852,12 @@ body>section:nth-child(8)>section:nth-child(4) {
         left: 57px;
         flex-direction: row;
     }
+
     body > section:nth-child(4) > section:nth-child(2) > div {
         width: 135px;
         height: 139px;
     }
+
     body > section:nth-child(4) > section:nth-child(3) {
         width: 638px;
         height: 100px;
@@ -2878,6 +2866,7 @@ body>section:nth-child(8)>section:nth-child(4) {
         left: 57px;
         flex-direction: row;
     }
+
     body > section:nth-child(4) > section:nth-child(3) > div {
         width: 135px;
         height: 139px;
@@ -2893,31 +2882,37 @@ body>section:nth-child(8)>section:nth-child(4) {
         width: 650px;
         left: 50px;
     }
+
     body > section:nth-child(5) > section > div {
         height: 178px;
         width: 199px;
     }
+
     body > section:nth-child(5) > section > div:nth-child(1) > a {
         top: 71px;
         left: 7px;
         font-size: 13px;
     }
+
     body > section:nth-child(5) > section > div:nth-child(2) > a {
         top: 72px;
         left: 13px;
         font-size: 13px;
     }
+
     body > section:nth-child(5) > section > div:nth-child(3) > a {
         top: 76px;
         font-size: 14px;
         left: 26px;
     }
+
     body > section:nth-child(5) > h1 {
         color: black;
         left: 31px;
         bottom: 321px;
         font-size: 25px;
     }
+
     body > section:nth-child(5) > section:nth-child(2) > a > h2 {
         left: 319px;
         top: 67px;
@@ -2932,10 +2927,12 @@ body>section:nth-child(8)>section:nth-child(4) {
         height: 166px;
         width: 731px;
     }
+
     body > section:nth-child(6) > section:nth-child(2) > div {
         height: 120px;
         width: 120px;
     }
+
     body > section:nth-child(6) > section:nth-child(3) {
         top: 3247px;
         flex-direction: row;
@@ -2943,40 +2940,52 @@ body>section:nth-child(8)>section:nth-child(4) {
         height: 166px;
         width: 731px;
     }
+
     body > section:nth-child(6) > section:nth-child(3) > div {
         height: 120px;
         width: 120px;
     }
+
     body > section:nth-child(6) > section:nth-child(2) > div:nth-child(1) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(2) > div:nth-child(2) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(2) > div:nth-child(3) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(2) > div:nth-child(4) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(2) > div:nth-child(5) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(3) > div:nth-child(1) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(3) > div:nth-child(2) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(3) > div:nth-child(3) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(3) > div:nth-child(4) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(3) > div:nth-child(5) > a {
         font-size: 8px;
     }
+
     body > section:nth-child(6) > section:nth-child(1) > h1 {
         left: 50px;
         bottom: 580px;
@@ -2992,25 +3001,30 @@ body>section:nth-child(8)>section:nth-child(4) {
         width: 622px;
         left: 74px;
     }
+
     body > section:nth-child(7) > section:nth-child(1) > img {
         height: 177px;
-        width:187px;
+        width: 187px;
     }
+
     body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(1) {
         left: 89px;
         top: -3px;
         font-size: 22px;
     }
+
     body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(2) {
         left: 302px;
         top: -3px;
         font-size: 22px;
     }
+
     body > section:nth-child(7) > section:nth-child(2) > h1:nth-child(3) {
         left: 549px;
         top: -3px;
         font-size: 22px;
     }
+
     body > section:nth-child(7) > section:nth-child(3) > h1 {
         left: 30px;
         font-size: 25px;
@@ -3018,112 +3032,131 @@ body>section:nth-child(8)>section:nth-child(4) {
     }
 
     /*Contact -------------------------------------------------------------------------------------------*/
-
-    #whatsappc{
+    #whatsappc {
         width: 15px;
         left: 45px;
         top: 4406px;
     }
-    #facebookc{
+
+    #facebookc {
         width: 15px;
         left: 45px;
         top: 4447px;
     }
-    #linkedinc{
+
+    #linkedinc {
         width: 15px;
         left: 45px;
         top: 4489px;
     }
-    #twitterc{
+
+    #twitterc {
         width: 15px;
         left: 45px;
         top: 4528px
     }
-    #gmailc{
+
+    #gmailc {
         width: 15px;
         left: 45px;
         top: 4566px;
     }
+
     #githubc {
         width: 15px;
         left: 45px;
         top: 4602px;
     }
-    #placehold{
+
+    #placehold {
         width: 15px;
         left: 45px;
         top: 4639px;
     }
-    body>section:nth-child(8)>section:nth-child(1){
+
+    body > section:nth-child(8) > section:nth-child(1) {
         font-size: 16px;
         color: white;
     }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(1){
+
+    body > section:nth-child(8) > section:nth-child(1) > h1:nth-child(1) {
         left: 100px;
         top: 317px;
         font-size: 17px;
     }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(2){
+
+    body > section:nth-child(8) > section:nth-child(1) > h1:nth-child(2) {
         left: 100px;
         top: 357px;
         font-size: 17px;
     }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(3){
+
+    body > section:nth-child(8) > section:nth-child(1) > h1:nth-child(3) {
         left: 100px;
         top: 399px;
         font-size: 17px;
     }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(4){
+
+    body > section:nth-child(8) > section:nth-child(1) > h1:nth-child(4) {
         left: 100px;
         top: 440px;
         font-size: 17px;
     }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(5){
+
+    body > section:nth-child(8) > section:nth-child(1) > h1:nth-child(5) {
         left: 100px;
         top: 477px;
         font-size: 17px;
     }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(6) {
+
+    body > section:nth-child(8) > section:nth-child(1) > h1:nth-child(6) {
         left: 100px;
         top: 514px;
         font-size: 17px;
     }
-    body>section:nth-child(8)>section:nth-child(1)>h1:nth-child(7){
+
+    body > section:nth-child(8) > section:nth-child(1) > h1:nth-child(7) {
         left: 100px;
         top: 550px;
         font-size: 17px;
     }
-    body>section:nth-child(8)>section:nth-child(3){
+
+    body > section:nth-child(8) > section:nth-child(3) {
         height: 430px;
         right: 90px;
         width: 500px;
         top: 5200px;
     }
-    body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(1) {
+
+    body > section:nth-child(8) > section:nth-child(3) > form > input:nth-child(1) {
         left: 217px;
         top: -1001px;
         width: 315px;
         height: 30px;
     }
-    body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(2){
+
+    body > section:nth-child(8) > section:nth-child(3) > form > input:nth-child(2) {
         left: 217px;
         top: -961px;
         width: 315px;
         height: 32px;
     }
-    body>section:nth-child(8)>section:nth-child(3)>form>input:nth-child(3){
+
+    body > section:nth-child(8) > section:nth-child(3) > form > input:nth-child(3) {
         left: 217px;
         top: -919px;
         width: 315px;
         height: 70px;
     }
-    body>section:nth-child(8)>section:nth-child(3)>form>button {
+
+    body > section:nth-child(8) > section:nth-child(3) > form > button {
         left: 322px;
         top: -844px;
         width: 102px;
         height: 27px;
     }
-    body>section:nth-child(8)>section:nth-child(4) {
+
+    body > section:nth-child(8) > section:nth-child(4) {
         left: 30px;
         bottom: -35px;
         font-size: 11px;

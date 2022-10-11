@@ -39,7 +39,24 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px ;
+}
 
+.home{
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: Ubuntu,sans-serif;
+}
+
+.image{
+    width: 10px;
+    height: 13px;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    top: 100px;
 }
 
 

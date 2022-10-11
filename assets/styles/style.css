@@ -4,19 +4,42 @@
     box-sizing: border-box;
     box-decoration: none;
 }
-
 .navbar{
     position: fixed;
     width: 100%;
-    background-color:crimson ;
+    background-color:#192a56 ;
+    padding: 15px 0;
+    font-family: Ubuntu,sans-serif;
 }
-
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navbar .logo{
     color: #FFFFFF;
     font-size: 35px;
     font-weight: 600;
+    left: -340px;
+    position: relative;
 }
-
+.navbar .menu li{
+   list-style: none;
+    display: inline-block;
+    left: 300px;
+    position: relative;
+}
 .navbar .menu li a{
     color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px ;
+
 }
+
+

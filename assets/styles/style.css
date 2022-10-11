@@ -4,3 +4,19 @@
     box-sizing: border-box;
     box-decoration: none;
 }
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color:crimson ;
+}
+
+.navbar .logo{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li a{
+    color: #FFFFFF;
+}
